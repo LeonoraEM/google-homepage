@@ -1,3 +1,4 @@
+ /* Navigation */
  nav {
  display: flex;
   }
@@ -12,7 +13,7 @@
   nav .cta {
     margin-left: auto;
   }
-  nav .cta button {
+  nav .cta .gmail, .images {
     border: 0;
     background: transparent;
   }
@@ -20,6 +21,16 @@
   a {
     margin-left: 15px;
   }
+
+  a:hover, a:active {
+    text-decoration: underline;
+}
+
+.sign-in {
+  background-color: #4583EE;
+}
+
+/* Google Image */
 
   .center-me {
   display: block;
@@ -29,3 +40,13 @@
   max-width: 400px;
   height: auto;
 }
+
+
+
+.search-bar {
+  text-align: center;
+}
+
+/* Form  */
+
+/* Footer */
