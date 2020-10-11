@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="styles/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
 </head>
-<body>
-<div class="main">
-    <div class="google-image">
-        <a href="#">About</a>
-        <a href="#">Store</a>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-                <button>Sign in</button>
 
-    <img src="/images/googlelogo.png" alt="Google">
-    <form class="search-bar">
-        <input  type="text" name="search" id="search-input">
-        <button>Google Search</button>
-        <button>Im Feeling Lucky</button>
-    </form>
-</div>
-</div>
+<body>
+    <div class="main">
+
+        <nav>
+            <div class="nav">
+                <div class="About">
+                    <a href="#">About</a>
+                </div>
+                <div class="Store">
+                    <a href="#">Store</a>
+                </div>
+            </div>
+            <div class="cta">
+                <button class="gmail"><a href="#">Gmail</a></button>
+                <button class="images"><a href="#">Images</a></button>
+                <button class="sign-in">Sign In</button>
+            </div>
+        </nav>
+
+        <div class="google-image-search">
+
+            <img src="/images/googlelogo.png" alt="Google" class="google-image center-me">
+
+            <form class="search-bar">
+                <input type="text" name="search" id="search-input">
+                <button>Google Search</button>
+                <button>Im Feeling Lucky</button>
+            </form>
+
+        </div>
+    </div>
 
 
 </body>
 
-<footer>
+<!-- <footer>
     <p>© 2020 Leonora</p>
-</footer>
+</footer> -->
 
 </html>
